@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,19 +22,18 @@
       padding: 3rem 2rem;
       text-align: center;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      position: relative;
     }
     .headshot {
-      width: 160px;
-      height: 160px;
+      width: 120px;
+      height: 120px;
       object-fit: cover;
       border-radius: 50%;
-      border: 4px solid white;
-      margin-top: -80px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-    }
-    .image-wrapper {
-      text-align: center;
-      margin-top: -60px;
+      border: 3px solid white;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     }
     section {
       padding: 2rem;
@@ -82,19 +80,16 @@
 </head>
 <body>
   <header>
+    <img src="Profile Picture.jpg" alt="Maxwell Werling Headshot" class="headshot">
     <h1>Maxwell Werling</h1>
     <p>Customer Success | Operations | Enablement | Public Safety Leadership</p>
   </header>
-
-  <div class="image-wrapper">
-    <img src="Profile Picture.jpg" alt="Maxwell Werling Headshot" class="headshot">
-  </div>
 
   <section>
     <div class="section-title">
       <h2>About Me</h2>
     </div>
-    <p>I’m a mission-driven professional with 9+ years of experience in customer training, onboarding, and stakeholder enablement...</p>
+    <p>I’m a mission-driven professional with 9+ years of experience in customer training, onboarding, and stakeholder enablement. I specialize in improving operational processes, scaling user engagement programs, and bridging the gap between customer needs and technical solutions. Whether in public safety, SaaS, or customer advocacy, I bring structure, empathy, and performance to every role I take on.</p>
   </section>
 
   <section>
@@ -104,17 +99,23 @@
     <h3>Emergency Communications Training Officer</h3>
     <p><em>City of Largo Police Department | 2024–Present</em></p>
     <ul>
-      <li>Led onboarding and digital training programs...</li>
+      <li>Led onboarding and digital training programs for dispatchers across CAD, RMS, and radio systems.</li>
+      <li>Created internal knowledge bases and improved time-to-competency by 30%.</li>
+      <li>Partnered with cross-functional leaders to implement scalable enablement workflows.</li>
     </ul>
+
     <h3>Emergency Communications Dispatcher</h3>
     <p><em>City of Largo Police Department | 2016–2024</em></p>
     <ul>
-      <li>Handled high-volume emergency calls...</li>
+      <li>Handled high-volume emergency calls and coordinated police/fire/EMS response.</li>
+      <li>Trained new hires and built internal documentation to improve team readiness.</li>
     </ul>
+
     <h3>Store Manager in Training</h3>
     <p><em>Rent-A-Center | 2012–2016</em></p>
     <ul>
-      <li>Managed customer onboarding, retention...</li>
+      <li>Managed customer onboarding, retention, and satisfaction across a high-volume store.</li>
+      <li>Developed and led in-store customer engagement strategies.</li>
     </ul>
   </section>
 
